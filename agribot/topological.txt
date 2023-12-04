@@ -1,0 +1,18 @@
+git clone https://github.com/parisChatz/Weed-Detection-Robotic-System.git
+
+https://github.com/SAGARobotics/topological_navigation
+
+export DISPLAY=host.docker.internal:0.0
+
+roslaunch thorvald_sprayer_package thorvald_spray.launch
+
+source /opt/ros/dashing/setup.bash
+
+source devel/setup.bash
+
+echo "source /home/user/ros2_ws/install/setup.bash" >> ~/.bashrc
+
+source /opt/ros/dashing/setup.bash
+source ~/ros2_workspace/install/setup.bash
+
+source /opt/ros/noetic/setup.bash
